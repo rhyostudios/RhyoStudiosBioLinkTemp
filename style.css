@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    font-family:"itc-avant-garde-gothic-pro";
+}
+body{
+    background-color: #121114;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+.wrapper{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.wrapper-cont{
+
+}
+.button-wrapper{
+    margin-top: 12px;
+}
+.btn{
+    margin: 8px;
+    opacity: 0.9;
+    transition: 50ms ease-in-out;
+}
+.btn:hover{
+    opacity: 1;
+    transition: 50ms ease-in-out;
+    transform: translateY(-4px);
+}
